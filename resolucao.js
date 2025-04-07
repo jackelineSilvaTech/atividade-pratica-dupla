@@ -1,7 +1,8 @@
 /**
- * @param {string} haystack
- * @param {string} needle
- * @return {number}
+ * Retorna index da primeira ocorrência de 'needle' em 'haystack', se não for encontrada, irá retornar -1.
+ * @param {string} haystack string na qual 'needle' será buscada
+ * @param {string} needle string a ser buscada
+ * @return {number} index da primeira ocorrência de 'needle' em 'haystack' ou -1
  */
 var strStr = function(haystack, needle) {
     return haystack.indexOf(needle);
